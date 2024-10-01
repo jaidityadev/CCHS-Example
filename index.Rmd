@@ -1,0 +1,38 @@
+--- 
+title: "CCHS Example"
+author: "Asal Aslemand, Andrew Gad, Jaiditya Dev, and Yihan Wang, "
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+description: |
+  This Bookdown project explores key predictors of mental health perceptions among Canadian youths using data from the Canadian Community Health Survey. The analysis focuses on demographic factors, social behaviors, and educational outcomes.
+link-citations: yes
+github-repo: jaidityadev/CCHS-Example
+---
+
+# About This Book
+
+This book presents a comprehensive analysis of the Canadian Community Health Survey, focusing on mental health perceptions among youths. The survey's rich dataset allows us to explore various aspects influencing mental health, including social, economic, and psychological factors.
+
+## Purpose of the Study
+
+The main goal of this study is to identify factors that are strongly associated with positive mental health outcomes among Canadian youths. Insights from this analysis could inform policy makers and healthcare providers about effective strategies to improve mental health services.
+
+## How to Use This Book
+
+Each chapter of this book corresponds to a distinct aspect of the analysis:
+- **Chapter 1: Introduction and Background Information** - Provides an overview of the survey methodology and the importance of studying mental health.
+- **Chapter 2: Data and Methodology** - Details the statistical methods used for the analysis, including logistic regression and categorical data analysis.
+- **Chapter 3: Results and Discussion** - Discusses the findings from the analysis, supported by visualizations and tables.
+- **Chapter 4: Conclusions** - Summarizes the key takeaways and suggests future research directions.
+
+## Render This Book
+
+You can render this book into HTML or PDF formats directly from the RStudio IDE or from the R console using the following command:
+
+```{r, eval=FALSE}
+bookdown::render_book('index.Rmd', 'bookdown::gitbook')
+```
+
+<!--chapter:end:index.Rmd-->

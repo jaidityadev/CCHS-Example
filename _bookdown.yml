@@ -1,0 +1,8 @@
+book_filename: "CCHS-Analysis"
+delete_merged_file: true
+rmd_files:
+  - index.Rmd
+  - 01-intro.Rmd
+  - 02-data-methodology.Rmd
+  - 03-results-discussion.Rmd
+
