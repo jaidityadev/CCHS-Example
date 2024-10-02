@@ -4,7 +4,7 @@ This chapter outlines the methodologies used and the data sources employed in ou
 
 ## Data Sources
 
-We utilized the 2022 release of the Canadian Community Health Survey, which covers a wide demographic range and includes numerous health-related variables.
+We utilized the 20XX release of the Canadian Community Health Survey, which covers a wide demographic range and includes numerous health-related variables.
 
 - **Population Covered**: The survey includes responses from over 30,000 Canadians aged 12 and above.
 - **Sampling Method**: Description of the stratified sampling technique used to ensure a representative sample of the Canadian population.
