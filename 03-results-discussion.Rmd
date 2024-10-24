@@ -21,3 +21,7 @@ This chapter presents the findings from our analysis of the health survey data a
 
 - **Scope of Data**: Limitations due to the scope of the survey data.
 - **Methodological Limitations**: Constraints encountered in the analytical techniques used.
+
+## Exercises and Example 
+<!-- Add Link to Exercise-->
+
