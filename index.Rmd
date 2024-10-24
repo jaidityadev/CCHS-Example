@@ -25,14 +25,12 @@ Each chapter of this book corresponds to a distinct aspect of the analysis:
 - **Chapter 1: Introduction and Background Information** - Provides an overview of the survey methodology and the importance of studying mental health.
 - **Chapter 2: Data and Methodology** - Details the statistical methods used for the analysis, including logistic regression and categorical data analysis.
 - **Chapter 3: Results and Discussion** - Discusses the findings from the analysis, supported by visualizations and tables.
-- **Chapter 4: Conclusions** - Summarizes the key takeaways and suggests future research directions.
 
 ## Render This Book
 
 You can render this book into HTML or PDF formats directly from the RStudio IDE or from the R console using the following command:
 
 ```{r, eval=FALSE}
-bookdown::render_book('index.Rmd', 'bookdown::gitbook')
+unlink("docs/*", recursive = TRUE)
+bookdown::render_book()
 ```
-
-<!--chapter:end:index.Rmd-->
