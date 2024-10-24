@@ -5,4 +5,6 @@ rmd_files:
   - 01-intro.Rmd
   - 02-data-methodology.Rmd
   - 03-results-discussion.Rmd
+  
+output_dir: "docs"
 
